@@ -9,3 +9,12 @@
 
 **Link(s) to work**
 Come to my home and look. I've still got some M&S Shortbread left.
+
+### Day 2: Wednesday January 4th
+
+**Today's Progress**: I finished the extra curricuar challenge from yesterday. I have begun small program which will show the user a String and ask them to correctly state where the BoundaryMatches are.
+
+**Thoughts** I have got a massive blind spot about /b and /B so this program is largly to help myself. As this is 100 days of code, I may expand it into a program which tests all the regex metacharacters. I'd also like to use GUI elements as they are something I haven't studied much.
+
+**Link(s) to work**
+On a piece of paper even less understandable than yesterday's.
