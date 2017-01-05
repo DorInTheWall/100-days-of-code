@@ -25,7 +25,7 @@ public class BoundaryExaminator{
 		obj.generateArray(); //generates an array of characters from which a random String will be formed
 		obj.generateString(); //Randomly selects from char[] to form String to present to user
 	
-	
+		
 	
 	} //main
 	
@@ -33,10 +33,14 @@ public class BoundaryExaminator{
 	//Generate an array of characters by adding ints into a char[]
 	private void generateArray(){
 		
-		charArray = new char[94];
+		charArray = new char[114];
 		
 		for(int i=33, j=0; i <= 126; i++, j++){
 			charArray[j] = (char)i;
+		}
+		
+		for(int i = 126; i < charArray.length; i++){
+			charArray[i] = ' ';
 		}
 		
 	}	
@@ -49,9 +53,27 @@ public class BoundaryExaminator{
 		char[] generated = new char[8];
 		
 		for(int i = 0; i < generated.length; i++){
-			generated[i] = charArray[random.nextInt(94)];			
+			generated[i] = charArray[random.nextInt(114)];			
 		}
 		
+		
+		//Checks if first or last characters are spaces and changes them. Simply for user readability
+		boolean notSpace = false;
+		
+		do {
+			
+			if(generated[0] == 0){
+				generated[0] = charArray[random.nextInt(114)];	
+				
+			} else if (generated[generated.length - 1] == 0){
+				generated[generated.length-1] = charArray[random.nextInt(114)];	
+				
+			} else {
+				notSpace = true;
+			}
+		} while(!notSpace);
+		
+		//Set the generated string to testString
 		testString = new String(generated);
 	
 	}
