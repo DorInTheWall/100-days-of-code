@@ -5,8 +5,12 @@ The user is shown a random String of 8 characters and must type in where /b or /
 
 This program is written because I have a massive blind spot about /b and /B and would really like to not fail my OCP exam because of it.
 
-*/
+Pointers, suggestions, better ways of doing things all welcomed.
 
+*/
+import java.util.Random;
+import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class BoundaryExaminator{
 
@@ -16,10 +20,10 @@ public class BoundaryExaminator{
 	
 	public static void main(String[] args){
 	
-	BoundaryExaminator obj = new BoundaryExaminator();
+		BoundaryExaminator obj = new BoundaryExaminator();
 	
-	obj.generateArray(); //generates an array of characters from which a random String will be formed
-	obj.generateString(); //Randomly selects from char[] to form String to present to user
+		obj.generateArray(); //generates an array of characters from which a random String will be formed
+		obj.generateString(); //Randomly selects from char[] to form String to present to user
 	
 	
 	
@@ -35,13 +39,21 @@ public class BoundaryExaminator{
 			charArray[j] = (char)i;
 		}
 		
-	}
-	
-	
+	}	
 	
 	//Select from charArray at random to create a String of 8 characters. Weight it to select non-char?
 	private void generateString(){
+	
+		Random random = new Random();
 		
+		char[] generated = new char[8];
+		
+		for(int i = 0; i < generated.length; i++){
+			generated[i] = charArray[random.nextInt(94)];			
+		}
+		
+		testString = new String(generated);
+	
 	}
 	
 	
