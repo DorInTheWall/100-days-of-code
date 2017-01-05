@@ -18,3 +18,12 @@ Come to my home and look. I've still got some M&S Shortbread left.
 
 **Link(s) to work**
 On a piece of paper even less understandable than yesterday's.
+
+### Day 3: Thursday January 5th
+
+**Today's Progress**: Working on BoundaryExamination program. Got the generation of the random String working correctly, weighted to include spaces, and changes String if first or last character are a space. Looks as though all is good with it.
+
+**Thoughts** Progress hampered by inability to read own handwriting, but it's moving forward. I'm struck by the realisation that I can actually *do* stuff. Which is nice. 
+
+**Link(s) to work**
+On the repo: https://github.com/DorInTheWall/100-days-of-code/blob/master/BoundaryExaminator.java
