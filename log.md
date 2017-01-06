@@ -27,3 +27,12 @@ On a piece of paper even less understandable than yesterday's.
 
 **Link(s) to work**
 On the repo: https://github.com/DorInTheWall/100-days-of-code/blob/master/BoundaryExaminator.java
+
+### Day 4: Friday January 6th
+
+**Today's Progress**: Not much done - only half an hour of File I/O practice exercises
+
+**Thoughts** I probably could get another half hour done but my brain is knackered and cold and I have meatworld stuff which needs doing before dark. I'll probably try and get a better plan for the rest of BoundaryExamination down on paper later as I'm not completely happy with my current outline. Still. Some is better than nothing.
+
+**Link(s) to work**
+On my computer. If you feel a burning desire to know how good I am at File, FileWriter and BufferedWriter, please feel free to hack it.
