@@ -36,3 +36,15 @@ On the repo: https://github.com/DorInTheWall/100-days-of-code/blob/master/Bounda
 
 **Link(s) to work**
 On my computer. If you feel a burning desire to know how good I am at File, FileWriter and BufferedWriter, please feel free to hack it.
+
+
+### Day 5: Saturday January 7th
+
+**Today's Progress**: More File I/O Exercises
+
+**Thoughts** I'm feeling good about these. I was fairly comfortable with how they worked and this is cementing all that knowledge. Need a file/directory creating/deleting/written to/read from? Come at me, Bro. 
+I feel a little bad about not getting more done on BoundaryExaminator, but I've got another 15-odd I/O to do by Wednesday and 70-odd NIO.2 to do for the following week. I'm clearly going to smash this challenge for the next week.
+
+**Link(s) to work**
+On my computer. Again.
+
