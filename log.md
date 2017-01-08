@@ -48,3 +48,15 @@ I feel a little bad about not getting more done on BoundaryExaminator, but I've 
 **Link(s) to work**
 On my computer. Again.
 
+### Day 6: Sunday January 8th
+
+**Today's Progress**: More File I/O Exercises
+
+**Thoughts** When I began the challenge, I was pretty sure I'd fail simply because I try to stay off the computer on Sundays. Still, done my hour today. Made good progress. Went "urk" at the Console class, then felt bad because it's actually really simple and useful. 
+
+I thought I'd forgotten how to instantiate an array (I tend to use ArrayLists) but it turned out I'd miscounted my parenthesesesseseses. 
+
+**Link(s) to work**
+On my computer. Again.
+
+
