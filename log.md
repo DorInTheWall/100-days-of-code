@@ -59,4 +59,16 @@ I thought I'd forgotten how to instantiate an array (I tend to use ArrayLists) b
 **Link(s) to work**
 On my computer. Again.
 
+### Day 7: Monday January 9th
+
+**Today's Progress**: Practice Excercises and File/Folder generator.
+
+**Thoughts** Loads of coding done today, and it's been the fun kind: having a problem and solving it. I've been using TreeSet for the first time. It worked exactly how I wanted it to, although I did spend at least 20 mintues trying to work out why I was throwing increasingly random Exceptions the longer I ran my program - the answer: clear() the damn TreeSet between loops!
+
+Also, wrote a program to autogenerate folders containing a java file with the class defined and main method written. It's a really useful bit of kit if, like me, you've got a sheet with 70-odd practice exercises to get through.
+
+**Link(s) to work**
+https://github.com/DorInTheWall/100-days-of-code/blob/master/GenerateFolders
+
+
 
