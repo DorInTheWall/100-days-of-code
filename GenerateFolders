@@ -1,0 +1,76 @@
+/* 
+This program creates a number of folders each containing a java file containing the correctly named class 
+  and main method.
+  
+  I wrote this as something useful for me, for a specific job.
+
+*/
+
+
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class GenerateFolders{
+
+	public static void main(String[] args){
+	
+		//Future Tweeks: get Number from user to determine number to create, or directory etc
+		
+		for (int i = 1; i <= 72; i++){ //IF YOU'RE RUNNING THIS YOU REALLY WANT TO CHANGE THIS LINE TO SOMETHING APPROPRIATE. TRUST ME.
+			
+					
+			String dirName = "OCP_C9_NIO_Ex" + i;
+			File dir = new File("OCP9\\NIO\\"+dirName); 
+			
+			dir.mkdirs();
+			
+			String fileName = dirName + ".java";
+			File file = new File(dir, fileName);
+			
+			//Create the text to copy to the file 
+			
+			/* 
+				I could achieve this by copying the data from another file, but I want to 
+				make sure each file has the correct class name - on a Monday morning this
+				feels like the simplest solution.
+				
+				Comments, better methods, welcomed. 
+			
+			*/
+			
+			String[] linesToCopy = {
+									"public class " + dir + "{",
+									"\tpublic static void main(String[] args){",
+									"",
+									"\t}",		
+									"}"
+									};
+			
+			
+	
+			try{
+				
+				PrintWriter pw = new PrintWriter(file);
+				
+				//Write the main method to the created file
+				
+				for(String s: linesToCopy){
+					pw.println(s);					
+				}
+				
+				pw.flush();
+				pw.close();
+				
+			} catch (IOException e){
+				System.out.println("There has been a problem.");
+				e.printStackTrace();
+			}
+			
+			
+		} // for
+	
+	
+	} //main
+} //class
