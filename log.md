@@ -70,5 +70,14 @@ Also, wrote a program to autogenerate folders containing a java file with the cl
 **Link(s) to work**
 https://github.com/DorInTheWall/100-days-of-code/blob/master/GenerateFolders
 
+### Day 7: Tuesday January 10th
+
+**Today's Progress**: Serialization!
+
+**Thoughts** My throat is on fire and my neck is starting to swell. I got my hour done, but I had hoped to do more than that. Still, getting to grips with Serialization. Which is nice.
+
+**Link(s) to work**
+On computer.
+
 
 
