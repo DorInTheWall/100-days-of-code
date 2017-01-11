@@ -41,7 +41,7 @@ public class GenerateFolders{
 			*/
 			
 			String[] linesToCopy = {
-									"public class " + dir + "{",
+									"public class " + dirName + "{",
 									"\tpublic static void main(String[] args){",
 									"",
 									"\t}",		
